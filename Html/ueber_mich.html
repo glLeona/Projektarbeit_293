@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="\css\ueber_mich.css" />
+    <script>
+  function toggleSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.classList.toggle('open');
+  }
+</script>
+    <title>Ueber mich</title>
+  </head>
+   <div class="ganzerinhalt">
+     <div class="sidebar">
+  <div class="sidebar-item">
+    <a href="ueber_mich.html">
+      <img src="/pictures/uebermichpicture.webp" alt="Über mich Icon">
+      <span>Über mich</span>
+    </a>
+  </div>
+  <div class="sidebar-item">
+    <a href="Projekte.html">
+      <img src="/pictures/kleines_bild1.jpg" alt="Projekte Icon">
+      <span>Projekte</span>
+    </a>
+  </div>
+  <div class="sidebar-item">
+    <a href="Faehigkeiten.html">
+      <img src="/pictures/kleines_bild2.jpg" alt="Fähigkeiten Icon">
+      <span>Fähigkeiten</span>
+    </a>
+  </div>
+  <div class="sidebar-item">
+    <a href="Kontakt.html">
+      <img src="/pictures/kleines_bild3.jpg" alt="Kontakt Icon">
+      <span>Kontakt</span>
+    </a>
+  </div>
+</div>
+    <div class="inhalt-rechts">
+      <button class="sidebar-toggle" onclick="toggleSidebar()">☰ Menü</button>
+    <header>
+      <div class="header">
+        <div class="header-inhalt-links">
+          <h2>Über mich</h2>
+          <hr/>
+          <h3>Leona Glanzmann</h3>
+          <p>Applikationsentwicklung</p>
+        </div>
+        <div class="header-bild">
+          <img src="\pictures\Bild_von_mir.jpg" alt="Mein Bild"/>
+        </div>
+      </div>
+    </header>
+
+    <body>
+      <div class="body-inhalt">
+        <div class="body-bilder">
+          <img
+            src="\pictures\Bild_von_mir_und_sam.jpg"
+            class="body inhalt-bild"
+            height="80px"
+          />
+          <img
+            src="\pictures\Bild_am_skifahren.jpg"
+            class="body inhalt-bild"
+            height="80px"
+          />
+          <img
+            src="\pictures\Bild_von_valorant.jpg"
+            class="body inhalt-bild"
+            height="80px"
+          />
+        </div>
+        <div class="body-familie">
+          <div class="uebertitel-familie">Familie</div>
+          <div class="body-familie-inhalt">
+            <div>Vater</div>
+            <div>Reto Glanzmann</div>
+            <div>Dipl.IT.Ing.FH</div>
+            <div>Mutter</div>
+            <div>Jolanda Glanzmann</div>
+            <div>Hausfrau</div>
+            <div>Schwester</div>
+            <div>Melina Glanzmann</div>
+            <div>Grafikerin EFZ</div>
+          </div>
+        </div>
+        <div class="body-biografie">
+          <div class="body-biografie-biografie">
+            <h2>Biografie</h2>
+          </div>
+          <div class="body-biografie-dat">
+            <p class="datum">30.11.2008</p>
+          </div>
+          <div class="body-biografie-text">
+            <p>
+              Mein Name ist Leona Glanzmann und ich bin in der Schweiz geboren.
+              Mit vier Jahren besuchte ich den Zelghalden Kindergarten. Danach
+              ging ich mit sechs Jahren ins Tonhallenschulhaus und wechselte in
+              der fünften Klasse in das Klosterweg Schulhaus. Meine
+              Sekundarschule absolvierte ich an der Mädchensekundarschule
+              St.Katharina, in der ich auch meinen Abschluss machte.
+            </p>
+          </div>
+          <div class="body-biografie-text-rechts">
+            <p>
+              Im Sommer 2024 habe ich meine Lehre als Applikationsentwicklerin
+              erfolgreich begonnen und befinde mich nun in der Endphase des
+              ersten Lehrjahres.
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr class="line-bottom"/>
+
+
+    <footer>
+      <div class="footer">
+        <div>Telefonnummer</div>
+        <div>+41 78 808 67 74</div>
+        <div class="footer-adresse"> Neulandenstrasse 10 <br> CH-9500 <br> Wil SG</div>
+        <div>E-mail Adresse</div>
+        <div>leona@glanzmann.net</div>
+        <div>Facebook</div>
+        <div>Leona_GlanzmannCH</div>
+        <div>Instagram</div>
+        <div>itzme_lele_</div>
+      </div>
+    </footer>
+  </div>
+  </body>
+</html>

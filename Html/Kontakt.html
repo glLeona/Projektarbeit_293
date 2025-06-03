@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="\css\Kontakt.css" />
+    <script>
+  function toggleSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.classList.toggle('open');
+  }
+</script>
+    <title>Kontakt</title>
+  </head>
+  <body>
+    <div class="ganzerinhalt">
+      
+     <div class="sidebar">
+  <div class="sidebar-item">
+    <a href="ueber_mich.html">
+      <img src="/pictures/uebermichpicture.webp" alt="Über mich Icon">
+      <span>Über mich</span>
+    </a>
+  </div>
+  <div class="sidebar-item">
+    <a href="Projekte.html">
+      <img src="/pictures/kleines_bild1.jpg" alt="Projekte Icon">
+      <span>Projekte</span>
+    </a>
+  </div>
+  <div class="sidebar-item">
+    <a href="Faehigkeiten.html">
+      <img src="/pictures/kleines_bild2.jpg" alt="Fähigkeiten Icon">
+      <span>Fähigkeiten</span>
+    </a>
+  </div>
+  <div class="sidebar-item">
+    <a href="Kontakt.html">
+      <img src="/pictures/kleines_bild3.jpg" alt="Kontakt Icon">
+      <span>Kontakt</span>
+    </a>
+  </div>
+      </div>
+
+      <div class="inhalt-rechts">
+        <button class="sidebar-toggle" onclick="toggleSidebar()">☰ Menü</button>
+        <header>
+          <div class="header-kontakt"><h2>Kontakt</h2></div>
+        </header>
+
+        <div class="unterheader">
+          Dein Interesse wurde geweckt und du möchtest gerne mehr über mich
+          erfahren oder sogar mit mir Kontakt aufnehmen? Dann melde dich gerne!
+        </div>
+
+        <form class="kontaktformular">
+          <div class="kontaktformular-header">Kontaktformular</div>
+
+          <label for="betreff">Betreff</label>
+          <input type="text" id="betreff" name="betreff" />
+
+          <label for="name">Name*</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">E-Mail Adresse*</label>
+          <input type="email" id="email" name="email" required />
+
+          <div class="unteres-feld">
+            <label for="nachricht" class="unsichtbar">Nachricht</label>
+            <textarea
+              id="nachricht"
+              name="nachricht"
+              placeholder="Nachricht"
+            ></textarea>
+            <button type="submit">Senden</button>
+          </div>
+        </form>
+
+        <div class="untereselement">
+          <div class="linkes-untereselement">
+            <div class="verfuegbarkeit">Verfügbarkeit</div>
+            <div class="daten">
+              Montag: 08:00h-16:00h <br />
+              Dienstag: 08:00h-16:00h<br />
+              Mittwoch: 16:00h-20:00h<br />
+              Donnerstag: 16:00h-20:00h<br />
+              Freitag: 16:00h-18:00h<br />
+              Samstag und Sonntag: Nicht verfügbar
+            </div>
+          </div>
+          <div class="rechtes-untereselement">
+            <div class="video-container">
+              <iframe
+                src="https://www.youtube.com/embed/PiUfr0gnsdc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+
+        <hr class="line-bottom" />
+
+        <footer>
+          <div class="footer">
+            <div>Telefonnummer</div>
+            <div>+41 78 808 67 74</div>
+            <div class="footer-adresse">
+              Neulandenstrasse 10 <br />
+              CH-9500 <br />
+              Wil SG
+            </div>
+            <div>E-mail Adresse</div>
+            <div>leona@glanzmann.net</div>
+            <div>Facebook</div>
+            <div>Leona_GlanzmannCH</div>
+            <div>Instagram</div>
+            <div>itzme_lele_</div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
